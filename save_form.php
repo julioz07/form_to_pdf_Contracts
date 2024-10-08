@@ -124,9 +124,9 @@ $pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
 
 // Mapeia os nomes dos médicos para os arquivos de assinatura
 $medico_signature_map = [
-    'Dr. Vitor Figueiredo' => 'signatures/Dr_Vitor_Figueiredo.png',
+    'Dr. Vinicio' => 'signatures/Dr_Vinicio.png',
     'Dr. Ricardo' => 'signatures/Dr_Ricardo.png',
-    'Dra. Lara Graça' => 'signatures/Dra_Lara_Graça.png',
+    'Dra. Iara' => 'signatures/Dra_Iara.png',
 ];
 
 // Obtém a assinatura do médico selecionado
