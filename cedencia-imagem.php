@@ -59,9 +59,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                             <div class="form-group">
                                 <label for="medico">Médico</label>
                                 <select name="medico" class="form-control" required>
-                                    <option value="Dr. Vitor Figueiredo">Dr. Vitor Figueiredo</option>
-                                    <option value="Dr. Ricardo">Dr. Ricardo</option>
-                                    <option value="Dra. Lara Graça">Dra. Lara Graça</option>
+                                    <option value="Dr. 1">Dr. 1</option>
+                                    <option value="Dr. 2">Dr. 2</option>
+                                    <option value="Dra. 3">Dra. 3</option>
                                 </select>
                             </div>
                             <div class="form-group">
