@@ -71,15 +71,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <h4>Olá, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Escolhe que tipo de documento deve ser criado.</h4>
                         <p>Utiliza os butões a baixo para excolher uma opção:</p>
                         <a href="cedencia-imagem.php" class="btn btn-img btn-custom">Cedência de Imagem</a>
-                        <a href="planos-de-tratamentos.php" class="btn btn-secondary btn-custom">Plano de tratamentos base</a>
-                        <a href="CI-bodyglam.php" class="btn btn-warning btn-custom">CI-Bodyglam&#174;</a>
-                        <a href="CI-Hialoestrutura.php" class="btn btn-warning btn-custom">CI-Hialoestrutura&#174;</a>
-                        <a href="CI-Mesoestimulacao.php" class="btn btn-warning btn-custom">CI-Mesoestimulação&#174;</a>
-                        <a href="CI-Beauty-Flash.php" class="btn btn-warning btn-custom">CI-Beauty Flash&#174;</a>
-                        <a href="CI-Superfomer.php" class="btn btn-warning btn-custom">CI-Superfomer&#174;</a>
-                        <a href="CI-Lipolise.php" class="btn btn-warning btn-custom">CI-Lipólise</a>
-                        <a href="CI-Acido-Hiaulorico.php" class="btn btn-warning btn-custom">CI-Ácido Hiaulórico</a>
-                        <a href="CI-Peeling.php" class="btn btn-warning btn-custom">CI-Peeling</a>
                         
                         <p>
                        <a href="view_forms.php" class="btn btn-secondary btn-custom"style="margin-top:25px;">Ver Registos</a> <br>
