@@ -19,36 +19,9 @@ $form_type = $_POST['form_type'];
 
 switch ($form_type) {
     case 'planos-de-tratamentos':
-        header("location: template_planos-de-tratamentos.php");
+        header("location: template_1.php");
         break;
-    case 'cedencia-imagem':
-        header("location: template_cedencia-imagem.php");
-        break;
-    case 'CI-Acido-Hiaulorico':
-            header("location: template_CI-Acido-Hiaulorico.php");
-            break;
-    case 'CI-bodyglam':
-            header("location: template_CI-bodyglam.php");
-            break;
-    case 'CI-beauty-flash':
-         header("location: template_CI-Beauty-Flash.php");
-            break;
-
-    case 'CI-hialoestrutura':
-         header("location: template_CI-Hialoestrutura.php");
-            break;
-     case 'CI-lipolise':
-         header("location: template_CI-Lipolise.php");
-                   break;
-    case 'CI-mesoestimulacao':
-        header("location: template_CI-Mesoestimulacao.php");
-                       break;
-    case 'CI-peeling':
-         header("location: template_CI-Peeling.php");
-                           break;
-     case 'CI-Superfomer':
-        header("location: template_CI-Superfomer.php");
-                               break;
+    
     // Adicione outros cases para outros tipos de formulário
     default:
         header("location: welcome.php");
